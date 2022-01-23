@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(165, 178, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(7, 9, 121);
+}
+div#content{
+    padding: 30px;
+}
+pre{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 2px;
+}
+input[type="number"]{
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    padding-left: 6px;
+    outline: none;
+}
+button{
+    border: none;
+    margin-left: 20px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background-color: rgb(54, 118, 238);
+    color: white;
+}
