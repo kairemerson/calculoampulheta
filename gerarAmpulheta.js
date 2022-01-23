@@ -7,7 +7,7 @@ button.addEventListener("click",()=>{
     valor = Number(input.value)
     div.innerHTML = ""
     if(valor < 20){
-        alert("Insira um valor acima de 20")
+        alert("Insira um valor de 20 acima.")
         return
     }else{
         gerarAmpulheta(valor)
